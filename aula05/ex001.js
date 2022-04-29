@@ -26,3 +26,8 @@ c = true
 console.log(typeof a)
 console.log(typeof b)
 console.log(typeof c)
+
+function DiscoverType(variable){
+    console.log(typeof variable)
+}
+
