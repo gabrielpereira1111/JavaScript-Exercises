@@ -31,3 +31,6 @@ function DiscoverType(variable){
     console.log(typeof variable)
 }
 
+console.log("-------------------------")
+
+DiscoverType(a)
