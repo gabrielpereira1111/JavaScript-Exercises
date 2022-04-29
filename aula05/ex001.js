@@ -17,9 +17,11 @@
 
 var a;
 let b;
+var c;
 
 a = 25;
 b = "Gabriel"
+c = true
 
 console.log(typeof a)
 console.log(typeof b)
