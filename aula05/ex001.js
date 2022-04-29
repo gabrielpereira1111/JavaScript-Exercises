@@ -34,3 +34,5 @@ function DiscoverType(variable){
 console.log("-------------------------")
 
 DiscoverType(a)
+DiscoverType(b)
+DiscoverType(c)
