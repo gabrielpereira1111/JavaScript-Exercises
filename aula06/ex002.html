@@ -7,6 +7,12 @@
     <title>Currency</title>
 </head>
 <body>
-    
+    <script>
+        var numero = 456.2568
+        alert(numero)
+        alert(numero.toFixed(2))
+        alert(numero.toFixed(3).replace("4","1"))
+        alert(numero.toLocaleString("pt-BR", { style:"currency", currency:"BRL" }))
+    </script>
 </body>
 </html>
