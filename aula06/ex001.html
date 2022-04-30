@@ -7,23 +7,17 @@
     <title>Exercício 01</title>
     <style>
         body{
-            background-color: rgb(144, 223, 223);
-            color: white;
             font-family: Arial, Helvetica, sans-serif;
-        }
-        h1{
-            text-transform: uppercase;
         }
     </style>
 </head>
 <body>
-    <h1 id="Title">Olá, mundo!</h1> 
-    <p>Ufa! Me livrei da maldição</p>
-
 
     <script>
 
+        var nome = prompt("Qual o seu nome?")
         
+        document.write(`Olá, ${nome}! O seu nome possui ${nome.length} caracteres. O seu nome em letras maiúsculas é ${nome.toUpperCase()}. O seu nome em letras minúsculas é ${nome.toLowerCase()}`)
 
     </script>
 </body>
