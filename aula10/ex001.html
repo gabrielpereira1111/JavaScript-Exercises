@@ -22,7 +22,8 @@
 
         var area = window.document.getElementById("area")
         area.addEventListener("click", () => {clicar()})
-        area.addEventListener("pointermove", ()=>{mover()})
+        area.addEventListener("mouseenter", ()=>{mover()})
+        area.addEventListener("mouseout", ()=>{sair()})
         
 
         function clicar(){
@@ -30,6 +31,9 @@
         }
         function mover(){
             area.style.backgroundColor = "green"
+        }
+        function sair(){
+            area.style.backgroundColor = "red"
         }
     </script>
 </body>
