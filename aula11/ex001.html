@@ -15,6 +15,16 @@
 
     </div>
 
-    
+    <script>
+        function verificar(){
+            var txtvel = document.querySelector("input#txtvel")
+            var vel = Number(txtvel.value)
+            var res = document.querySelector("div#res")
+            if(vel > 60){
+                res.innerHTML = `Dirigindo acima de <strong>${vel} km/h</strong>. MULTADO`
+            }
+            res.innerHTML += "<p>Dirija sempre com segurança!</p>"
+        }
+    </script>
 </body>
 </html>
