@@ -7,6 +7,41 @@
     <title>Nacionalidade</title>
 </head>
 <body>
-    
+    <h1>Nacionalidade</h1>
+    <select name="pais" id="pais">
+        <option value="0">Brasil</option>
+        <option value="1">Estados Unidos</option>
+        <option value="2">França</option>
+    </select>
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function verificar(){
+            var slct = document.querySelector("select#pais")
+            var pais;
+            switch(slct.value){
+                case "0":
+                    pais = "Brasil"
+                    break
+                case "1":
+                    pais = "Estados Unidos"
+                    break
+                case "2":
+                    pais = "França"
+                    break
+                default:
+                    break
+            }
+
+            if(pais == "Brasil"){
+                document.querySelector("div#res").innerHTML = "Você é brasileiro"
+            } else {
+                document.querySelector("div#res").innerHTML = "Você é estrangeiro"
+            }
+        }
+    </script>
 </body>
 </html>
