@@ -19,9 +19,18 @@ body{
     border-radius: 10px;
     min-height: 200px;
     box-shadow: 5px 5px 5px rgb(71, 71, 71);
+    text-align: center;
 }
 
 .footer{
     text-align: center;
     color: white;
+}
+
+.content div{
+    padding: 10px;
+}
+
+#imagem{
+    clip-path: circle();
 }
