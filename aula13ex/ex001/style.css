@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(71, 71, 141);
+    font: normal 15pt Arial;
+}
+
+.header{
+    text-align: center;
+    color: white;
+}
+
+.content{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    min-height: 200px;
+    box-shadow: 5px 5px 5px rgb(71, 71, 71);
+}
+
+.content div{
+    padding: 25px;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+}
