@@ -30,24 +30,5 @@ function adicionar(){
     }
 }
 
-function finalizar(){
-    if(arr.length == 0){
-        alert("[ERRO] Adicione antes de finalizar")
-    } else{
-        res.innerHTML = `<p>Ao todo temos ${arr.length} valores</p>`
-        let maior = arr[0];
-        let menor = arr[0];
-        let soma = 0;
-        for(let i = 0; i < arr.length; i++){
-            if(arr[i] > maior){
-                maior = arr[i]
-            }
-            if(arr[i] < maior){
-                menor = arr[i]
-            }
 
-            soma += arr[i]
-        }
-    }
-}
 
