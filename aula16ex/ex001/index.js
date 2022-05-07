@@ -1,7 +1,13 @@
 var arr = []
 var res = document.querySelector("div#res")
 
-
+function isNumber(num){
+    if(num != 0 && (num > 0 && num <= 100)){
+        return true
+    } else {
+        return false
+    }
+}
 function inArray(num, array){
     if(array.indexOf(num) == -1){
         return false
